@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe - Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=PT+Serif:ital,wght@0,700;1,700&family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap"
+        rel="stylesheet">
+    <script src="cafe.js"></script>
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar1">
+        <ul class="nav-list">
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#aboutid">About</a></li>
+            <li> <a href="#menuid">Menu</a></li>
+            <li> <a href="#whereid">Where</a></li>
+        </ul>
+    </nav>
+
+    <div class="image" id="image1">
+        <img src="images/homeee.jpg" alt="img">
+        <p class="timing"><b>Open from 6am to 5pm</b></p>
+        <p class="Adress"><b>15 Adr street, 5015</b></p>
+        <p class="heading" id="main heading"><b>the Cafe</b></p>
+    </div>
+    <div id="aboutid"></div>
+    <div class="outer">
+        <p class="about" id="abt">ABOUT THE CAFE</p>
+        <p class="inner" id="inn">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br><br> addition to
+            our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as
+            a selection of sides and salads and other good stuff.</p>
+        <p class="inner2" id="inn2"><i><b>"Use products from nature for what it's worth - but never too early, nor too late."
+            Fresh is the new sweet.Chef, Coffeeist and Owner: Liam Brown</b></i></p>
+    </div>
+    <div>
+        <p class="line"></p>
+    </div>
+    <div class="aboutp"><img src="images/about.jpg" alt="sorry" />
+        <p class="m"><b>Opening hours: </b>everyday from 6am to 5pm.<br><br><b>Adress: </b> 15 Adr street, 5015, NY</p>
+    </div>
+    <div id="menuid"></div>
+    <p  class="themenu" >THE MENU</p>
+    <div class="navbar">
+        <button class="navbar-button" onclick="toggleMenu('eatlist')">Eat</button>
+        <button class="navbar-button" onclick="toggleMenu('drinklist')">Drinks</button>
+    </div>
+    <div id="eatlist" class="menuelist">
+        <ul class="innermenu">
+            <li> <b>Bread Basket</b></li>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <li> <b>Honey Almond Granola with Fruits</b></li>
+            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <li> <b>Belgian Waffle</b></li>
+            <p>Vanilla flavored batter with malted flour 7.50</p>
+            <li> <b>Scrambled eggs</b></li>
+            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50 </p>
+            <li> <b>Blueberry Pancakes</b></li>
+            <p>With syrup, butter and lots of berries 8.50</p>
+        </ul>
+    </div>
+    <div id="drinklist" class="menuelist">
+        <ul class="innermenu">
+            <li><b>Coffee</b></li>
+            <p>Regular coffee 2.50</p>
+            <li><b>Chocolato</b></li>
+            <p>Chocolate espresso with milk 4.50</p>
+            <li><b>Corretto</b></li>
+            <p>Whiskey and coffee 5.00</p>
+            <li><b>Iced tea</b></li>
+            <p>Hot tea, except not hot 3.00</p>
+            <li><b>Soda</b></li>
+            <p>Coke, Sprite, Fanta, etc. 2.50</p>
+        </ul>
+    </div>
+    <div>
+        <p class="imagemenu"><img src="images/menu.jpg" alt="error" />
+    </div>
+    <div id="whereid"></div>
+    <div>
+        <p class="wheretofindus">WHERE TO FIND US</p>
+        <p class="adrs">Find us at some address at some place.</p>
+        <p class="adrspic"><img src="images/whre 2.jpeg" alt="error" /></p>
+        <p class="fiy">
+            <span>FIY!</span>&nbsp;We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.<br><br><b>Reverse</b> &nbsp; a table, ask for today's special or just send us a message:</p><br>
+            <!--  -->
+            <!--  -->
+            <form class="boxes">
+          
+                <input type="text" id="userInput" placeholder="Name">
+                <select name="ppl" class="slt">
+                <option value="1 - 5">How many peoples "1 - 5"</option>
+                <option value="6 - 10">How many peoples "6 - 10" </option>
+                <option value="11 - 20">How many peoples "11 - 20" </option>
+                <option value="more">How many peoples "more" </option>
+                </select>
+                <input type="datetime-local" name="depart" class="date"> 
+                <input type="text" id="userInput" placeholder="Message / Special requirements">
+            
+        </form>
+            <!--  -->
+            <!--  -->
+    <!-- <div class="input-container">
+        <input type="text" id="userInput" placeholder="Name">
+    </div>
+    <div id="output"></div><br>
+     <form>
+        <div class="ppl">
+            <select name="peoples">
+                <option value="1 - 5">How many peoples "1 - 5"</option>
+                <option value="6 - 10">How many peoples "6 - 10" </option>
+                <option value="11 - 20">How many peoples "11 - 20" </option>
+                <option value="more">How many peoples "more" </option>
+            </select>
+        </div> <br>
+        <div class="date">
+            <input type="date" name="depart" />
+        </div><br>
+    </form>
+    <div class="input-container2">
+        <input type="text" id="userInput" placeholder="Message / Special requirements">
+    </div><br>
+    <form>
+        <form> -->
+        <div class="btn">
+            <input type="submit" value="Send Message" />
+        </div>
+    </form>
+    <div id="end">
+        <p class="ending">© All Rights Reserved</p>
+    </div>
+</body>
+
+</html>

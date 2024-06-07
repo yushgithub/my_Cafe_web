@@ -1,0 +1,648 @@
+@media(max-width:2560px){
+    .Adress{
+        margin-left:90%;
+        margin-top:-3%;
+    }
+    .about{
+        margin-top:40%;
+    }
+    .line{
+        margin-top:-2.7%;
+        height:7.8vh;
+    }
+    .navbar{
+        margin-bottom:1.3%;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    }
+    .menuelist{
+        margin-top: -1.1%;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.nav-list li {
+    margin: 0 82px;
+}
+}
+@media(max-width:1440px){
+    .Adress{
+        margin-left:70%;
+        margin-top:-3%;
+    }
+    .about{
+        margin-top:40%;
+    }
+    .line{
+        margin-top:-2.7%;
+        height:7.8vh;
+    }
+    .navbar{
+        margin-bottom:1.3%;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    }
+    .menuelist{
+        margin-top: -1.1%;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    }
+    .navbar-button{
+        margin: 0px 78px;
+    }
+
+}
+
+@media(max-width:1024px){
+    body{
+        background-color: rgb(232, 221, 222);
+        display: block;
+        margin:0px;
+        padding: 0px;
+    }
+    .navbar1 {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        position: sticky; 
+        top: 0; 
+        margin: 0 auto;
+        z-index: 100; 
+        max-width:100%;
+    }
+    
+    .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        padding: 15px 10px;
+    
+    }
+    
+    .nav-list li {
+        margin: 0 26px;
+    }
+    .nav-list li a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 10px 0px;
+        font-family: "Alegreya", serif;
+        text-decoration: none;
+    }
+    .timing{
+        margin-top:-4%;
+    }
+    .Adress{
+        margin-top:-7%;
+        margin-left: 77%;
+    }
+    .about{
+        max-width:30%;
+    }
+    .inner{
+        max-width:100%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .inner2{
+        max-width:100%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .aboutp img{
+        width:80%;
+    }
+    .m{
+        max-width:100%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .themenu{
+        max-width:30%;
+    }
+    .navbar{
+        max-width: 78%;
+    }
+    .navbar-button {
+        margin: 0px 110px;
+    }
+    .menuelist{
+        max-width:78%;
+        margin-top:-2%;
+    }
+    .imagemenu img{
+        width:80%;
+    }
+    .wheretofindus{
+        max-width:30%;
+    }
+    
+    .adrspic img{
+        width:80%;
+    }
+    .adrs{
+        max-width:100%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+     .fiy{
+        max-width:100%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .boxes{
+        width:80%;
+    }
+    .btn input[type=submit] {
+        margin-left:10%;
+    }
+}
+@media (max-width: 768px) {
+    .navbar1 {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        position: sticky; 
+        top: 0; 
+        z-index: 100; 
+    }
+    
+    .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        padding: 15px 90px;
+    
+    }
+    
+    .nav-list li {
+        margin: 0 15px;
+    }
+    
+    .nav-list li a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 10px 0px;
+    }
+    .timing {
+        font-family: "Alegreya", serif;
+        color: white;
+        margin-top:-5%;
+        font-size:25px;
+    }
+    .heading {
+        font-size:100px;
+        margin:0 auto;
+        margin-top:-50%;
+        
+    }
+    .Adress {
+        margin-top:-8%;
+        font-size:25px;
+        margin-left: 70%;
+    }
+    .about{
+        max-width:30%;
+    }
+    .inner{
+        max-width:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .inner2{
+        max-width:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .aboutp img{
+        width:88%;
+    }
+    .m{
+        max-width:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .themenu{
+        max-width:30%;
+    }
+    .navbar{
+        max-width: 88%;
+    }
+    .navbar-button {
+        margin: 0px 65px;
+    }
+    .menuelist{
+        max-width:88%;
+        margin-top:-2%;
+    }
+    .imagemenu img{
+        width:90.4%;
+    }
+    .wheretofindus{
+        max-width:30%;
+    }
+    .adrs{
+        max-width:110%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .adrspic img{
+        width:88%;
+    }
+    .adrs{
+        max-width:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+     .fiy{
+        max-width:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .boxes{
+        width:88%;
+    }
+    .btn input[type=submit] {
+        margin-left:5%;
+    }
+}
+@media (max-width: 425px) {
+    .navbar1 {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        position: sticky; 
+        top: 0; 
+        z-index: 100; 
+    }
+    
+    .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        padding: 15px 44px;
+    
+    }
+    
+    .nav-list li {
+        margin: 0 10px;
+    }
+    
+    .nav-list li a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 10px 0px;
+    }
+    .timing {
+        font-family: "Alegreya", serif;
+        color: white;
+        margin-top:-5%;
+        font-size:15px;
+    }
+    .heading {
+        font-size:50px;
+        margin-top: -50%;    
+    }
+    .Adress {
+        margin-top:-8%;
+        font-size:15px;
+        margin-left:71%;
+    }
+    .about{
+        max-width:50%;
+        font-size: 20px;
+        margin-top:60%;
+    }
+    .inner{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .inner2{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .aboutp img{
+        width:95%;
+    }
+    .m{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .themenu{
+        max-width:50%;
+        font-size: 20px;
+    }
+    .navbar{
+        max-width: 88%;
+    }
+    .navbar-button {
+        margin: 0px 10px;
+        font-size: 20px;
+    }
+    .menuelist{
+        max-width:88%;
+        margin-top:-2%;
+    }
+    .menuelist li{
+        font-size: 19px;
+    }
+    .menuelist p{
+        font-size: 19px;
+    }
+    .imagemenu img{
+        width:90.4%;
+    }
+    .wheretofindus{
+        max-width:50%;
+        font-size: 20px;
+    }
+    .adrs{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .adrspic img{
+        width:95%;
+    }
+    .adrs{
+        max-width:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+     .fiy{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .boxes{
+        width:95%;
+    }
+    .btn input[type=submit] {
+        margin-left:2%;
+        font-size: 20px;
+    }
+}
+@media (max-width: 375px) {
+    .navbar1 {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        position: sticky; 
+        top: 0; 
+        z-index: 100; 
+    }
+    
+    .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        padding: 15px 45px;
+    
+    }
+    
+    .nav-list li {
+        margin: 0 4px;
+    }
+    
+    .nav-list li a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 10px 0px;
+    }
+    .timing {
+        font-family: "Alegreya", serif;
+        color: white;
+        margin-top:-5%;
+        font-size:10px;
+    }
+    .heading {
+        font-size:30px;
+        margin:0 auto;
+        margin-top:-50%;
+        
+    }
+    .Adress {
+        margin-top:-6%;
+        font-size:10px;
+        margin-left:77%;
+    }
+    .about{
+        max-width:50%;
+        font-size: 20px;
+        margin-top:60%;
+    }
+    .inner{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .inner2{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .aboutp img{
+        width:95%;
+    }
+    .m{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .themenu{
+        max-width:50%;
+        font-size: 20px;
+    }
+    .navbar{
+        max-width: 88%;
+    }
+    .navbar-button {
+        margin: 0px 5px;
+        font-size: 20px;
+    }
+    .menuelist{
+        max-width:88%;
+        margin-top:-2%;
+    }
+    .menuelist li{
+        font-size: 19px;
+    }
+    .menuelist p{
+        font-size: 19px;
+    }
+    .imagemenu img{
+        width:90.4%;
+    }
+    .wheretofindus{
+        max-width:50%;
+        font-size: 20px;
+    }
+    .adrs{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .adrspic img{
+        width:95%;
+    }
+    .adrs{
+        max-width:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+     .fiy{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .boxes{
+        width:95%;
+    }
+    .btn input[type=submit] {
+        margin-left:2%;
+    }
+}
+@media (max-width: 320px) {
+    .navbar1 {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        position: sticky; 
+        top: 0; 
+        z-index: 100; 
+    }
+    
+    .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        padding: 15px 20px;
+    
+    }
+    
+    .nav-list li {
+        margin: 0 10px;
+    }
+    
+    .nav-list li a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 10px 0px;
+    }
+    .timing {
+        font-family: "Alegreya", serif;
+        color: white;
+        margin-top:-5%;
+        font-size:10px;
+    }
+    .heading {
+        font-size:30px;
+        margin:0 auto;
+        margin-top:-50%;
+        
+    }
+    .Adress {
+        margin-top:-8%;
+        font-size:10px;
+        margin-left:75%;
+    }
+    .about{
+        max-width:50%;
+        font-size: 15px;
+        margin-top:60%;
+    }
+    .inner{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .inner2{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .aboutp img{
+        width:95%;
+    }
+    .m{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .themenu{
+        max-width:50%;
+        font-size: 15px;
+    }
+    .navbar{
+        max-width: 88%;
+    }
+    .navbar-button {
+        margin: 0px -5px;
+        font-size: 15px;
+    }
+    .menuelist{
+        max-width:88%;
+        margin-top:-2%;
+    }
+    .menuelist li{
+        font-size: 15px;
+    }
+    .menuelist p{
+        font-size: 15px;
+    }
+    .imagemenu img{
+        width:90.4%;
+    }
+    .wheretofindus{
+        max-width:50%;
+        font-size: 15px;
+    }
+    .adrs{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .adrspic img{
+        width:95%;
+    }
+    .adrs{
+        max-width:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+     .fiy{
+        max-width:100%;
+        margin-left:2%;
+        margin-right:2%;
+        font-size: 20px;
+    }
+    .boxes{
+        width:95%;
+    }
+    .btn input[type=submit] {
+        margin-left:2%;
+    }
+}
